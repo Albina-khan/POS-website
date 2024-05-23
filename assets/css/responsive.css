@@ -16,6 +16,9 @@
   .mainhead{
     margin-top: 40%;
   }
+  .cta{
+    display: none;
+  }
 }
 @media (min-width: 576px) {
   .top-header {
