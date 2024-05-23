@@ -2,9 +2,19 @@
     Small devices (landscape phones, 576px and up)
 
 ------------------------------------*/
-@media(min-width:320 ){
+@media(max-width: 768px ){
   .text{
     font-size: 20px;
+  }
+  .navbar-expand-md .navbar-nav .nav-link {
+    /* padding: 8px 15px; */
+    margin-left: 20px;
+  }
+  .head{
+    font-size: 50px;
+  }
+  .mainhead{
+    margin-top: 40%;
   }
 }
 @media (min-width: 576px) {
@@ -28,7 +38,10 @@
   .text{
     font-size: 30px;
   }
-
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding: 8px 10px;
+    /* margin-right: 50px; */
+  }
   
 }
 /*-----------------------------------
@@ -40,9 +53,7 @@
   }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 8px 10px;
-  }
-  .navbar-expand-md .navbar-nav .nav-item {
-    margin-right: 12px;
+    /* margin-right: 50px; */
   }
   .navbar-collapse .nav-link {
     font-size: 0.875rem;
