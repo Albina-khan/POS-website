@@ -11,13 +11,27 @@
     margin-left: 20px;
   }
   .head{
-    font-size: 50px;
+    font-size: 30px;
   }
   .mainhead{
     margin-top: 40%;
   }
   .cta{
     display: none;
+  }
+  .slider .slide{
+    height: 80%;
+  }
+  .login{
+    font-size: 12px;
+  }
+  .navbar-toggler img{
+    width: 20px;
+    height: 20px;
+  }
+  .navbar-toggler{
+    width: 50px;
+    height: 40px;
   }
 }
 @media (min-width: 576px) {
@@ -217,9 +231,4 @@
     padding: 75px 0;
   }
   
-}
-@media(min-width:320){
-  .text{
-    font-size: 20px;
-  }
 }

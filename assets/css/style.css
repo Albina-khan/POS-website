@@ -118,7 +118,8 @@ header::after {
 }
 
 .navbar-brand img {
-  margin-left: 20%;
+  margin-left: 50%;
+  /* margin-top: 30%; */
 }
 
 .navbar-collapse .search-form input[type="text"] {
@@ -1096,7 +1097,7 @@ span {
   margin-top: 20%;
   display: flex;
   justify-content: center;
-  position: relative; /* Required for absolute positioning of pseudo-element */
+  position: relative; 
 }
 
 .head {
